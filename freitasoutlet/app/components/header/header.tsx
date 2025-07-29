@@ -5,7 +5,7 @@ export default function Header() {
     return (
     <>
     <header className='w-full h-[10rem] flex items-center text-white bg-black'>
-        <img src={Logo.src} alt="" className='w-[10rem] h-[8rem] ml-[2rem] cursor-pointer'/>
+        <img src={Logo.src} alt="" className='w-[8rem] h-[6rem] ml-[2rem] cursor-pointer'/>
 
         <button className='cursor-pointer font-bold text-[1.2rem] ml-[40rem] hover:underline flex gap-1 items-center'>
             <Handbag />
